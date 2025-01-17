@@ -22,3 +22,8 @@
   border-radius: 10px; 
 }
 
+@media (max-width: 1330px) {
+  .movie-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

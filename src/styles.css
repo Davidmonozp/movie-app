@@ -286,3 +286,32 @@
   background-color: #f1bb5d;
   cursor: not-allowed;
 }
+
+@media (max-width: 1330px) {
+
+  .movie-banner img {
+    height: 457px;
+  }
+
+  .image-additional img {
+   
+    width: 170px;
+    height: auto;
+    bottom: 127px;
+  }
+
+  .movie-banner::after {
+    position: absolute;
+    bottom: 11px;   
+}
+.movie-banner p { 
+  position: absolute;
+  font-size: 17px;
+  top: 87%; 
+}
+.movie-banner h2 {
+  font-size: 28px;
+  position: absolute;
+  top: 78%;
+}
+}
