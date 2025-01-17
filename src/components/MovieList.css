@@ -1,0 +1,24 @@
+
+/* Estilo para la grid de las películas */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.movie-grid img {
+  width: 270px;
+}
+
+.movie-card {
+  cursor: pointer;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+.movie-card img {
+  border-radius: 10px; 
+}
+
