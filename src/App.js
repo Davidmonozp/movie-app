@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMovies, setSearchQuery } from './features/movies/moviesSlice';
-import { FaPlay } from 'react-icons/fa';
 import MovieList from './components/MovieList';
 import './styles.css';
 
