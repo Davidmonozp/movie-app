@@ -465,3 +465,27 @@
   width: 180px;
 }
 }
+
+@media (max-width: 430px){
+  .movie-banner h2 {
+    font-size: 26px;
+    position: absolute;
+    top: 46%;
+}
+  .movie-banner p {
+    position: absolute;
+    font-size: 13px;
+    top: 51%;
+}
+.movie-banner img {
+  height: 457px; /* Ajusta la altura de la imagen */
+  object-position: center 40%; /* Mueve la imagen hacia abajo ajustando el valor del porcentaje */
+}
+  .movie-banner::after {
+    position: absolute;
+    bottom: 353px;
+    height: 7%;
+    width: 398px;
+  }
+}
+
